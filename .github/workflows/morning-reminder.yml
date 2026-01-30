@@ -2,7 +2,7 @@ name: Morning Email Reminder
 
 on:
   schedule:
-    - cron: "30 7 * * *"    #Every day at 07:00 UTC
+    - cron: "30 6 * * *"    #Every day at 07:00 UTC
   workflow_dispatch:
 
 jobs:
